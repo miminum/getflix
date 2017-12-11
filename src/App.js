@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import searchContent from './api/query'
 
 
 class App extends Component {
@@ -16,6 +17,10 @@ class App extends Component {
 
 
   render() {
+    searchContent('Red+Dead')
+      .then((res)=> {
+        console.log(res)
+      })
     return (
       <div className="App">
         Hello

@@ -1,6 +1,8 @@
-import api from 'api'
+import api from './init' 
 
-export function searchContent(query){
+function searchContent(query){
   return api.get(`/?t=${query}&apikey=5a0085e`)
     .then((res) => res.data)
 }
+
+export default searchContent
