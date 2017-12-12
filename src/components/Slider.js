@@ -3,24 +3,26 @@ import React from 'react'
 function Slider({
     content,
     genre
-
-  }) { 
+  }) 
+  
+  { 
     return (
       <div>
         <h3>
-          { genre }
+          { genre } 
         </h3>
         <ul className="items">
           { content.map((show) => (
             <li>
               <div 
                 class="bg-img" 
-                style={ `background-image: url(${ show.imageURL });` }
+                style={{ backgroundImage: `url(${ show.Poster })` }}
+                alt="Hello"
               >
               </div>
               <a href={ `${ show.link }` }>
                 <div class="content">
-                  <h2>{ show.title }</h2>
+                  <h2>{ show.Title }</h2>
                 </div>
               </a>
             </li>
