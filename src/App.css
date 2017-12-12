@@ -75,3 +75,10 @@ html {
 }
 
 /* END CSS FOR SLIDERS */
+.description {
+  background-image: url("https://hips.hearstapps.com/hbz.h-cdn.co/assets/16/40/1475588380-the-crown-index.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  color: white
+}
