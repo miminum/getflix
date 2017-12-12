@@ -3,3 +3,17 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.App {
+  background-color: black;
+}
+
+h1 {
+  margin: 0;
+  padding: 2%;
+  color: #B9090B;
+}
+
+h3 {
+  color: #ffff;
+}

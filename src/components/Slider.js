@@ -9,7 +9,7 @@ function Slider({
     return (
       <div>
         <h3>
-          { genre } 
+          { genre.toUpperCase() } 
         </h3>
         <ul className="items">
           { content.map((show) => (
